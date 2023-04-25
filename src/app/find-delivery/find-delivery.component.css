@@ -1,0 +1,109 @@
+/* Style pour les cards de livreurs */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #fe6639;
+    border-color: #fe6639;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff8f6b;
+    border-color: #ff8f6b;
+  }
+  
+  .btn-primary:active,
+  .btn-primary:focus,
+  .btn-primary:active:focus {
+    background-color: #fe6639;
+    border-color: #fe6639;
+    box-shadow: none;
+  }
+  
+  /* Style pour le formulaire de recherche */
+  .form-select {
+    height: 40px;
+  }
+  
+  .form-control {
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-control:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-primary {
+    height: 40px;
+    border-radius: 20px;
+  }
+  
+  /* Animation pour les cards de livreurs */
+  .card {
+    transform: scale(1);
+    transition: transform 0.2s ease-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style pour les titres de la page */
+  h2 {
+    color: #fe6639;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  /* Style pour le bouton de recherche */
+  .text-end button {
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .card .rounded-circle {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    object-position: center;
+    border: 2px solid #fff;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+  }
+  
+  .card .rounded-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+  }
+  .card-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin: 1rem;
+    float: left;
+  }
+    

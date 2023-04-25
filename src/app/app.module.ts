@@ -11,6 +11,8 @@ import { ConnexionCComponent } from './connexion-c/connexion-c.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { FindDeliveryComponent } from './find-delivery/find-delivery.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { FooterComponent } from './footer/footer.component';
     ConnexionCComponent,
     AccueilComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    PageNotFoundComponent,
+    FindDeliveryComponent
   ],
   imports: [
     BrowserModule,
