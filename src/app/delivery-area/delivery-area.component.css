@@ -1,0 +1,111 @@
+.table thead th {
+    border-bottom: none;
+    color: #0d42ff;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .table tbody td {
+    vertical-align: middle;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    margin: 0 auto;
+    max-width: 150px;
+  }
+  
+  .card-title {
+    color: #fe6639;
+  }
+  
+  .card-text {
+    color: #0d42ff;
+    font-size: 1.1rem;
+  }
+  .card-header {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .list-group-item {
+    padding: 1rem;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .list-group-item:last-child {
+    border-bottom: none;
+  }
+  
+  .list-group-item .badge {
+    font-size: 1rem;
+    margin-left: 1rem;
+  }
+  
+  .list-group-item .badge.bg-primary {
+    color: #fff;
+  }
+  
+  .list-group-item .badge.bg-warning.text-dark {
+    color: #212529;
+  }
+  
+  .list-group-item .badge.bg-danger {
+    color: #fff;
+  }
+  /* Couleur de fond pour le tableau */
+table {
+    background-color: #f8f8f8;
+  }
+  
+  /* Couleur de fond pour les lignes paires */
+  tr:nth-child(even) {
+    background-color: #e6e6e6;
+  }
+  
+  /* Style de bordure pour les cellules */
+  td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+  
+  /* Style de survol pour les lignes */
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style de survol pour les cellules */
+  td:hover {
+    background-color: #efefef;
+  }
+  
+  /* Style pour la colonne des notes */
+  td:nth-child(3) {
+    font-weight: bold;
+  }
+  
+  /* Style pour le titre de la carte */
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Style pour le texte de la carte */
+  .card-text {
+    font-size: 18px;
+  }
+  
+  /* Style pour l'image de la carte */
+  .card-img-top {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+  }
+  

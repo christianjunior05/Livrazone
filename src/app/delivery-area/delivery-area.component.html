@@ -1,0 +1,139 @@
+<app-navbar></app-navbar>
+<div class="container">
+    <h2 class="text-center mb-4">Mes tâches et notes</h2>
+    <div class="row">
+      <div class="col-md-8">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">Numéro de commande</th>
+              <th scope="col">Date de livraison</th>
+              <th scope="col">Note attribuée</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1234</td>
+              <td>25/04/2023</td>
+              <td>5/5</td>
+            </tr>
+            <tr>
+              <td>5678</td>
+              <td>27/04/2023</td>
+              <td>4/5</td>
+            </tr>
+            <tr>
+              <td>9012</td>
+              <td>29/04/2023</td>
+              <td>3/5</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3">
+          <img src="https://via.placeholder.com/150" class="card-img-top rounded-circle p-3" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Jean Dupont</h5>
+            <p class="card-text">Zone de disponibilité : Zone 1</p>
+            <p class="card-text">Status : Disponible</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <h2 class="text-center mb-4">Mes tâches</h2>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card">
+              <div class="card-header">
+                Commandes en cours
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Commande n°123</li>
+                <li class="list-group-item">Commande n°456</li>
+                <li class="list-group-item">Commande n°789</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header">
+              Commandes et tâches en cours
+            </div>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Commande</th>
+                  <th scope="col">Client</th>
+                  <th scope="col">Tâche en cours</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Commande 1</td>
+                  <td>Client A</td>
+                  <td>Aller chercher un colis à la poste</td>
+                </tr>
+                <tr>
+                  <td>Commande 2</td>
+                  <td>Client B</td>
+                  <td>Livrer un colis à l'adresse X</td>
+                </tr>
+                <tr>
+                  <td>Commande 3</td>
+                  <td>Client C</td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
+          <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                Mes notes
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <div class="d-flex align-items-center">
+                    <div class="flex-grow-1">
+                      Note du client A : "Excellent travail, livraison rapide et soignée."
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="badge bg-primary">5/5</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="d-flex align-items-center">
+                    <div class="flex-grow-1">
+                      Note du client B : "Livraison en retard, mais le livreur était très aimable."
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="badge bg-warning text-dark">3/5</span>
+                    </div>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="d-flex align-items-center">
+                    <div class="flex-grow-1">
+                      Note du client C : "Le livreur a endommagé mon colis."
+                    </div>
+                    <div class="flex-shrink-0">
+                      <span class="badge bg-danger">1/5</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+<app-footer></app-footer>

@@ -19,7 +19,7 @@
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #3277c5;
+    color: #ffffff;
     font-family: #fe6639;
   }
   
@@ -37,13 +37,13 @@
     border-radius: 50%;
     border: 1px solid rgba(255, 255, 255, 0.2);
     font-size: 16px;
-    color: #fe6639;
+    color: #ffffff;
     margin-right: 10px;
     transition: 0.3s;
   }
   
   .footer .social-links a:hover {
-    color: #080808;
+    color: #fe6639;
     border-color: #3277c5;
   }
   
@@ -66,7 +66,7 @@
   
   .footer .footer-links ul i {
     padding-right: 2px;
-    color: rgba(13, 66, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     font-size: 12px;
     line-height: 0;
   }
@@ -82,14 +82,14 @@
   }
   
   .footer .footer-links ul a {
-    color: #fe6639;
+    color: #ffffff;
     transition: 0.3s;
     display: inline-block;
     line-height: 1;
   }
   
   .footer .footer-links ul a:hover {
-    color: #3277c5;
+    color: #ffffff;
   }
   
   .footer .footer-contact p {

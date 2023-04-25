@@ -13,6 +13,8 @@ import { AboutComponent } from './about/about.component';
 import { FooterComponent } from './footer/footer.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { FindDeliveryComponent } from './find-delivery/find-delivery.component';
+import { DeliveryAreaComponent } from './delivery-area/delivery-area.component';
+import { DashboardAdminComponent } from './dashboard-admin/dashboard-admin.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { FindDeliveryComponent } from './find-delivery/find-delivery.component';
     AboutComponent,
     FooterComponent,
     PageNotFoundComponent,
-    FindDeliveryComponent
+    FindDeliveryComponent,
+    DeliveryAreaComponent,
+    DashboardAdminComponent
   ],
   imports: [
     BrowserModule,

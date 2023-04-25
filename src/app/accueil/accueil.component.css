@@ -338,3 +338,8 @@
   background: var(--color-primary);
   border: 2px solid var(--color-primary);
 }
+.btn-primary{
+  background-color: #3277c5;
+  border-radius: 25px;
+  border: none;
+}
