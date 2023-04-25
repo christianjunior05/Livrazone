@@ -1,3 +1,4 @@
+import { DashboardAdminComponent } from './dashboard-admin/dashboard-admin.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -8,6 +9,7 @@ import { ConnexionCComponent } from './connexion-c/connexion-c.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { InscriptionCComponent } from './inscription-c/inscription-c.component';
 import { InscriptionLComponent } from './inscription-l/inscription-l.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 
 const routes: Routes = [
@@ -18,7 +20,9 @@ const routes: Routes = [
   {path :"connexion-c" , component: ConnexionCComponent},
   {path : "**" , component: PageNotFoundComponent},
   {path : 'inscription-c' , component : InscriptionCComponent},
-  {path : 'inscription-l' , component : InscriptionLComponent}
+  {path : 'inscription-l' , component : InscriptionLComponent},
+  {path : 'sidebar' , component : SidebarComponent},
+  {path : 'dashboard-admin' , component: DashboardAdminComponent} 
 
 ];
 

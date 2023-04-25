@@ -15,6 +15,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { FindDeliveryComponent } from './find-delivery/find-delivery.component';
 import { DeliveryAreaComponent } from './delivery-area/delivery-area.component';
 import { DashboardAdminComponent } from './dashboard-admin/dashboard-admin.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { DashboardAdminComponent } from './dashboard-admin/dashboard-admin.compo
     PageNotFoundComponent,
     FindDeliveryComponent,
     DeliveryAreaComponent,
-    DashboardAdminComponent
+    DashboardAdminComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,
