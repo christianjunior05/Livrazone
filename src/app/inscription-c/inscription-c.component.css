@@ -1,5 +1,5 @@
 .left-section {
-    background-color: #fe6639; /* couleur rouge */
+    background-color: #3277c5;; /* couleur rouge */
     height: 100vh; /* hauteur égale à la hauteur de la fenêtre du navigateur */
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@
     width: 100%;
 }
 .btn {
-background-color: #fe6639; /* couleur rouge */
+background-color: #3277c5;; /* couleur rouge */
 margin-left: auto;
 margin-right: auto;
 display: block;
