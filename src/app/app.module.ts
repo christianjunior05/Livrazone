@@ -16,6 +16,7 @@ import { FindDeliveryComponent } from './find-delivery/find-delivery.component';
 import { DeliveryAreaComponent } from './delivery-area/delivery-area.component';
 import { DashboardAdminComponent } from './dashboard-admin/dashboard-admin.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { DeliveryInfoComponent } from './delivery-info/delivery-info.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     FindDeliveryComponent,
     DeliveryAreaComponent,
     DashboardAdminComponent,
-    SidebarComponent
+    SidebarComponent,
+    DeliveryInfoComponent
   ],
   imports: [
     BrowserModule,
